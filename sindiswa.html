@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPulse - Learn and Grow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">EduPulse</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="home" class="introduction">
+        <div class="container">
+            <h1>Welcome to EduPulse</h1>
+            <p>Your gateway to quality online education. Explore our wide range of courses and resources tailored to help you succeed in your learning journey.</p>
+            <a href="#courses" class="cta">Get Started</a>
+        </div>
+    </section>
+
+    
+    <section id="featured-courses" class="featured-courses">
+        <div class="container">
+            <h2>Featured Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+				<h3>Web Development Basics</h3>
+                    <p>Build your first website with our step-by-step guide.</p>
+                    <a href="#" class="cta">Learn More</a>
+                </div>
+                <div class="course-item">
+                    <h3>Data Science Fundamentals</h3>
+                    <p>Master data analysis and visualization techniques.</p>
+                    <a href="#" class="cta">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="success-stories" class="success-stories">
+        <div class="container">
+            <h2>Success Stories</h2>
+            <div class="story-list">
+                <div class="story-item">
+                    <p>"EduPulse helped me land my dream job! The courses were practical and easy to follow."</p>
+                    <h4>- Sarah Thompson</h4>
+                </div>
+                <div class="story-item">
+                    <p>"I never thought I could learn so much online. EduPulse made it possible."</p>
+                    <h4>- Michael Reed</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter to receive the latest updates and exclusive offers.</p>
+            <form action="#" method="POST">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EduPulse. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+	}
+header {
+    background-color: #004080;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffcc00;
+}
+
+
+.introduction {
+    background-color: #f0f4f8;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.introduction h1 {
+    font-size: 48px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.introduction .cta {
+    background-color: #ffcc00;
+    color: #004080;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.introduction .cta:hover {
+    background-color: #004080;
+    color: #fff;
+}
+
+
+.featured-courses {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.featured-courses h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #004080;
+}
+
+.course-list {
+    display: flex;
+    gap: 20px;
+}
+
+.course-item {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.course-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.course-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.course-item .cta {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.course-item .cta:hover {
+    background-color: #ffcc00;
+    color: #004080;
+}
+
+
+.success-stories {
+    background-color: #f0f4f8;
+    padding: 60px 0;
+}
+
+.success-stories h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #004080;
+}
+
+.story-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.story-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.story-item p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.story-item h4 {
+    font-size: 16px;
+    color: #004080;
+    text-align: right;
+}
+.newsletter {
+    background-color: #004080;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #004080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.newsletter button:hover {
+    background-color: #fff;
+    color: #004080;
+}
+
+
+footer {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+</style>
